@@ -1,0 +1,21 @@
+.filterBar {
+  width: 280px;
+  height: 100%;
+  background-color: white;
+}
+
+.filterCategoryTitle {
+  font-weight: 500;
+  font-size: 16px;
+  color: #374047;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  margin: 0px;
+  border-bottom: 1px solid #cfd3d7;
+}
+
+.filterCategoryTitle:hover {
+  cursor: pointer;
+  color: #599900;
+}
