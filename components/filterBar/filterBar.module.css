@@ -2,20 +2,37 @@
   width: 280px;
   height: 100%;
   background-color: white;
+  padding-left: 0px;
+  margin-left: 0px;
 }
 
 .filterCategoryTitle {
   font-weight: 500;
   font-size: 16px;
-  color: #374047;
+  display: 'block';
+  width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
+  border-bottom: 1px solid lightgrey;
   padding-left: 30px;
-  margin: 0px;
-  border-bottom: 1px solid #cfd3d7;
+  padding-right: 30px;
+  color: black;
 }
 
 .filterCategoryTitle:hover {
   cursor: pointer;
-  color: #599900;
+  color: grey;
+}
+
+.filterCategoryOption {
+  font-weight: 400;
+  font-size: 14px;
+  width: 100%;
+  text-decoration: none;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.chevron {
+  transition: transform 200ms ease;
 }
